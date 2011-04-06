@@ -30,7 +30,7 @@ PluginDescriptionFile pdfFile;
       pm.registerEvent(Event.Type.PLUGIN_ENABLE, pluginListener, Priority.Monitor, this);
 
  	  PluginDescriptionFile pdfFile = this.getDescription();
-      System.out.println( pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
+      System.out.println(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
       
       setupPermissions();
       setupMessages();

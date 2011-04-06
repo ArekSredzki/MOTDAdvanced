@@ -29,7 +29,7 @@ public final class MOTDAdvancedSettings {
 		try {
 			this.properties.load(new FileInputStream(this.fileName));
 		} catch (IOException ex) {
-			log.info("[TheForgottenLands] Unable to load " + this.fileName);
+			log.info("[MOTDA] Unable to load " + this.fileName);
 		}
 	}
 
@@ -37,7 +37,7 @@ public final class MOTDAdvancedSettings {
 		try {
 			this.properties.store(new FileOutputStream(this.fileName), "Minecraft Properties File");
 		} catch (IOException ex) {
-			log.info("[TheForgottenLands] Unable to save " + this.fileName);
+			log.info("[MOTDA] Unable to save " + this.fileName);
 		}
 	}
 
